@@ -1,8 +1,4 @@
 import os,platform
-os.system('pkg unstall python --quiet 2>/dev/null')
-os.system("clear")
-os.system('pkg install python -y --quiet 2>/dev/null')
-os.system("clear")
 os.system('pkg install espeak -y --quiet 2>/dev/null')
 os.system("clear")
 os.system('git pull --quiet 2>/dev/null')
