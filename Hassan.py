@@ -8,6 +8,6 @@ os.system('xdg-open https://chat.whatsapp.com/DBBwfAyLJgKFBW3QcnuYAm')
 Baloch=platform.architecture()[0]
 if Baloch=="32bit":
     os.system("clear");exit("\033[91;1m 32Bit Device Not Supported")
-    __import__("Ali")
+    __import__("Pro32")
 elif Baloch=="64bit":
-    __import__("Ali")
+    __import__("Pro64")
